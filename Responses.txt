@@ -1,0 +1,277 @@
+#################################### 1 ###############################
+
+Accuracy: 0.3186460097638737
+
+Classification Report:
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+                                                          precision    recall  f1-score   support
+
+                                                   ARSON       0.06      0.03      0.04       417
+            ASSAULT WITH DEADLY WEAPON ON POLICE OFFICER       0.37      0.45      0.40       186
+          ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT       0.22      0.23      0.23      9291
+                                       ATTEMPTED ROBBERY       0.02      0.01      0.01       799
+                                BATTERY - SIMPLE ASSAULT       0.20      0.29      0.24     12780
+                                BATTERY ON A FIREFIGHTER       0.21      0.12      0.15        42
+                                 BATTERY POLICE (SIMPLE)       0.26      0.22      0.24       452
+                             BATTERY WITH SEXUAL CONTACT       0.06      0.03      0.04       712
+BEASTIALITY, CRIME AGAINST NATURE SEXUAL ASSLT WITH ANIM       0.00      0.00      0.00         1
+                                                  BIGAMY       0.00      0.00      0.00         1
+                                 BIKE - ATTEMPTED STOLEN       0.00      0.00      0.00         1
+                                           BIKE - STOLEN       0.17      0.08      0.11      1380
+                          BLOCKING DOOR INDUCTION CENTER       0.00      0.00      0.00         1
+                                           BOAT - STOLEN       0.00      0.00      0.00        25
+                                              BOMB SCARE       0.09      0.04      0.06        98
+                                         BRANDISH WEAPON       0.06      0.03      0.04      2426
+                                                 BRIBERY       0.00      0.00      0.00         1
+                                          BUNCO, ATTEMPT       0.00      0.00      0.00        61
+                                      BUNCO, GRAND THEFT       0.05      0.02      0.03      1018
+                                      BUNCO, PETTY THEFT       0.02      0.01      0.01       372
+                                                BURGLARY       0.34      0.41      0.37      9849
+                                   BURGLARY FROM VEHICLE       0.29      0.43      0.34      9870
+                        BURGLARY FROM VEHICLE, ATTEMPTED       0.00      0.00      0.00       119
+                                     BURGLARY, ATTEMPTED       0.05      0.02      0.03       703
+                                       CHILD ABANDONMENT       0.00      0.00      0.00         3
+             CHILD ABUSE (PHYSICAL) - AGGRAVATED ASSAULT       0.01      0.01      0.01       111
+                 CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT       0.28      0.34      0.31       627
+                          CHILD ANNOYING (17YRS & UNDER)       0.16      0.15      0.16       172
+                          CHILD NEGLECT (SEE 300 W.I.C.)       0.20      0.21      0.20       182
+                                       CHILD PORNOGRAPHY       0.05      0.02      0.03        42
+                                          CHILD STEALING       0.04      0.01      0.02        74
+                                              CONSPIRACY       0.00      0.00      0.00         2
+                                       CONTEMPT OF COURT       0.06      0.03      0.04       480
+                                            CONTRIBUTING       0.00      0.00      0.00         8
+                                             COUNTERFEIT       0.00      0.00      0.00        27
+                   CREDIT CARDS, FRAUD USE ($950 & UNDER       0.00      0.00      0.00        15
+                CREDIT CARDS, FRAUD USE ($950.01 & OVER)       0.00      0.00      0.00        16
+                                       CRIMINAL HOMICIDE       0.05      0.01      0.02       267
+                  CRIMINAL THREATS - NO WEAPON DISPLAYED       0.06      0.03      0.04      3311
+CRM AGNST CHLD (13 OR UNDER) (14-15 & SUSP 10 YRS OLDER)       0.20      0.21      0.21       295
+                                      CRUELTY TO ANIMALS       0.00      0.00      0.00        46
+    DEFRAUDING INNKEEPER/THEFT OF SERVICES, $950 & UNDER       0.06      0.04      0.05        49
+    DEFRAUDING INNKEEPER/THEFT OF SERVICES, OVER $950.01       0.00      0.00      0.00        13
+                          DISCHARGE FIREARMS/SHOTS FIRED       0.17      0.16      0.16       464
+                        DISHONEST EMPLOYEE - GRAND THEFT       0.00      0.00      0.00         7
+                        DISHONEST EMPLOYEE - PETTY THEFT       0.00      0.00      0.00         1
+                                          DISRUPT SCHOOL       0.00      0.00      0.00         6
+                                    DISTURBING THE PEACE       0.04      0.01      0.02       288
+                        DOCUMENT FORGERY / STOLEN FELONY       0.08      0.04      0.05       541
+                       DOCUMENT WORTHLESS ($200 & UNDER)       0.00      0.00      0.00         5
+                     DOCUMENT WORTHLESS ($200.01 & OVER)       0.00      0.00      0.00        14
+                    DRIVING WITHOUT OWNER CONSENT (DWOC)       0.00      0.00      0.00        27
+                                       DRUGS, TO A MINOR       0.00      0.00      0.00         2
+                                              DRUNK ROLL       0.00      0.00      0.00         1
+              EMBEZZLEMENT, GRAND THEFT ($950.01 & OVER)       0.59      0.53      0.56       667
+                EMBEZZLEMENT, PETTY THEFT ($950 & UNDER)       0.09      0.03      0.05        32
+                                               EXTORTION       0.06      0.02      0.03       335
+                                     FAILURE TO DISPERSE       0.00      0.00      0.00         1
+                                        FAILURE TO YIELD       0.21      0.19      0.20       243
+                                      FALSE IMPRISONMENT       0.00      0.00      0.00        71
+                                     FALSE POLICE REPORT       0.00      0.00      0.00        30
+      FIREARMS EMERGENCY PROTECTIVE ORDER (FIREARMS EPO)       0.00      0.00      0.00         2
+                           GRAND THEFT / INSURANCE FRAUD       0.00      0.00      0.00         1
+                 HUMAN TRAFFICKING - COMMERCIAL SEX ACTS       0.36      0.38      0.37        65
+               HUMAN TRAFFICKING - INVOLUNTARY SERVITUDE       0.08      0.05      0.06        19
+                                         ILLEGAL DUMPING       0.00      0.00      0.00        15
+            INCEST (SEXUAL ACTS BETWEEN BLOOD RELATIVES)       0.00      0.00      0.00         1
+                                       INDECENT EXPOSURE       0.05      0.02      0.03       182
+                   INTIMATE PARTNER - AGGRAVATED ASSAULT       0.06      0.03      0.04      2204
+                       INTIMATE PARTNER - SIMPLE ASSAULT       0.21      0.30      0.25      8098
+                                              KIDNAPPING       0.02      0.01      0.01       146
+                              KIDNAPPING - GRAND ATTEMPT       0.10      0.05      0.06        42
+                 LETTERS, LEWD  -  TELEPHONE CALLS, LEWD       0.05      0.02      0.03      1296
+                                            LEWD CONDUCT       0.03      0.01      0.01       111
+                         LEWD/LASCIVIOUS ACTS WITH CHILD       0.00      0.00      0.00        10
+                                                LYNCHING       0.67      0.50      0.57         8
+                                    LYNCHING - ATTEMPTED       1.00      0.50      0.67         2
+                                 MANSLAUGHTER, NEGLIGENT       0.00      0.00      0.00         2
+                                         ORAL COPULATION       0.04      0.02      0.02       118
+                                           OTHER ASSAULT       0.05      0.02      0.02       727
+                               OTHER MISCELLANEOUS CRIME       0.10      0.05      0.07      1138
+                                               PANDERING       0.40      0.43      0.41        28
+                                             PEEPING TOM       0.10      0.04      0.05        56
+                               PETTY THEFT - AUTO REPAIR       0.00      0.00      0.00         1
+                                              PICKPOCKET       0.36      0.28      0.32       448
+                                     PICKPOCKET, ATTEMPT       0.00      0.00      0.00         1
+                                                 PIMPING       0.17      0.15      0.16        27
+                                                 PROWLER       0.00      0.00      0.00        36
+                                         PURSE SNATCHING       0.00      0.00      0.00        18
+                               PURSE SNATCHING - ATTEMPT       0.00      0.00      0.00         2
+                                         RAPE, ATTEMPTED       0.00      0.00      0.00        58
+                                          RAPE, FORCIBLE       0.06      0.04      0.04       625
+                                        RECKLESS DRIVING       0.00      0.00      0.00        37
+REPLICA FIREARMS(SALE,DISPLAY,MANUFACTURE OR DISTRIBUTE)       0.00      0.00      0.00         3
+                                        RESISTING ARREST       0.18      0.19      0.19       153
+                                                 ROBBERY       0.15      0.12      0.13      5449
+               SEX OFFENDER REGISTRANT OUT OF COMPLIANCE       0.72      0.75      0.73       157
+SEX,UNLAWFUL(INC MUTUAL CONSENT, PENETRATION W/ FRGN OBJ       0.18      0.17      0.18       192
+                     SEXUAL PENETRATION W/FOREIGN OBJECT       0.06      0.03      0.04       206
+                                   SHOPLIFTING - ATTEMPT       0.00      0.00      0.00        14
+                SHOPLIFTING - PETTY THEFT ($950 & UNDER)       0.48      0.58      0.53      3621
+                SHOPLIFTING-GRAND THEFT ($950.01 & OVER)       0.17      0.11      0.14       743
+                       SHOTS FIRED AT INHABITED DWELLING       0.11      0.05      0.07       313
+        SHOTS FIRED AT MOVING VEHICLE, TRAIN OR AIRCRAFT       0.03      0.01      0.02        77
+ SODOMY/SEXUAL CONTACT B/W PENIS OF ONE PERS TO ANUS OTH       0.02      0.01      0.01        94
+                                                STALKING       0.05      0.02      0.03       108
+                             TELEPHONE PROPERTY - DAMAGE       0.00      0.00      0.00         0
+                      THEFT FROM MOTOR VEHICLE - ATTEMPT       0.00      0.00      0.00       169
+     THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)       0.18      0.18      0.18      5809
+         THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)       0.12      0.04      0.06      6261
+                             THEFT FROM PERSON - ATTEMPT       0.00      0.00      0.00        22
+                                       THEFT OF IDENTITY       0.33      0.55      0.41     10192
+                                   THEFT PLAIN - ATTEMPT       0.02      0.01      0.02        79
+                      THEFT PLAIN - PETTY ($950 & UNDER)       0.22      0.22      0.22      8265
+                           THEFT, COIN MACHINE - ATTEMPT       0.00      0.00      0.00         2
+                                           THEFT, PERSON       0.06      0.02      0.03       747
+THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD       0.14      0.09      0.11      5150
+                         THREATENING PHONE CALLS/LETTERS       0.00      0.00      0.00        96
+                       THROWING OBJECT AT MOVING VEHICLE       0.02      0.01      0.01       145
+                 TILL TAP - GRAND THEFT ($950.01 & OVER)       0.00      0.00      0.00         3
+                         TILL TAP - PETTY ($950 & UNDER)       0.00      0.00      0.00         3
+                                             TRESPASSING       0.24      0.15      0.18      2230
+                            UNAUTHORIZED COMPUTER ACCESS       0.06      0.01      0.02        93
+ VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)       0.36      0.32      0.34      9863
+                VANDALISM - MISDEAMEANOR ($399 OR UNDER)       0.12      0.06      0.08      4297
+                                VEHICLE - ATTEMPT STOLEN       0.04      0.02      0.02       549
+                                        VEHICLE - STOLEN       0.82      0.97      0.89     17187
+VEHICLE, STOLEN - OTHER (MOTORIZED SCOOTERS, BIKES, ETC)       0.25      0.08      0.12       349
+                                VIOLATION OF COURT ORDER       0.08      0.03      0.04      1157
+                          VIOLATION OF RESTRAINING ORDER       0.08      0.04      0.06      2038
+                VIOLATION OF TEMPORARY RESTRAINING ORDER       0.00      0.00      0.00       146
+                              WEAPONS POSSESSION/BOMBING       0.00      0.00      0.00         6
+
+                                                accuracy                           0.32    160592
+                                               macro avg       0.11      0.09      0.09    160592
+                                            weighted avg       0.28      0.32      0.29    160592
+
+Vict Age: 0.2275
+Vict Sex: 0.1114
+TIME OCC: 0.3364
+AREA: 0.1414
+Premis Desc: 0.1834
+
+
+
+
+
+
+#################################### 2 ###############################
+Weapon desc
+
+Accuracy: 0.659553402411079
+
+Classification Report:
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\risha\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+                                                precision    recall  f1-score   support
+
+              AIR PISTOL/REVOLVER/RIFLE/BB GUN       0.18      0.04      0.07       321
+                               ANTIQUE FIREARM       0.00      0.00      0.00         2
+                   ASSAULT WEAPON/UZI/AK47/ETC       0.00      0.00      0.00        11
+              AUTOMATIC WEAPON/SUB-MACHINE GUN       0.00      0.00      0.00         6
+                                           AXE       0.10      0.02      0.03        48
+                BELT FLAILING INSTRUMENT/CHAIN       0.04      0.01      0.01       124
+                                     BLACKJACK       0.00      0.00      0.00         0
+                              BLUNT INSTRUMENT       0.04      0.00      0.01       232
+                                         BOARD       0.00      0.00      0.00        44
+                                   BOMB THREAT       0.00      0.00      0.00        39
+                                        BOTTLE       0.12      0.02      0.03       451
+                                 BOW AND ARROW       0.00      0.00      0.00         5
+                                   BOWIE KNIFE       1.00      0.17      0.29         6
+                                BRASS KNUCKLES       0.00      0.00      0.00        30
+                       CAUSTIC CHEMICAL/POISON       0.00      0.00      0.00        52
+                                       CLEAVER       0.00      0.00      0.00         4
+                                      CLUB/BAT       0.02      0.00      0.01       347
+                          CONCRETE BLOCK/BRICK       0.06      0.01      0.01       144
+                                   DEMAND NOTE       0.00      0.00      0.00        12
+                                   DIRK/DAGGER       0.00      0.00      0.00        14
+                    DOG/ANIMAL (SIC ANIMAL ON)       0.00      0.00      0.00         7
+                              EXPLOXIVE DEVICE       0.25      0.08      0.12        12
+                                          FIRE       0.04      0.01      0.01       115
+                                  FIXED OBJECT       0.00      0.00      0.00        75
+                                 FOLDING KNIFE       0.03      0.01      0.01       354
+                                         GLASS       0.00      0.00      0.00        53
+                                        HAMMER       0.00      0.00      0.00       221
+                                      HAND GUN       0.17      0.06      0.09      3458
+ HECKLER & KOCH 93 SEMIAUTOMATIC ASSAULT RIFLE       0.00      0.00      0.00        20
+                                      ICE PICK       0.00      0.00      0.00        14
+                                 KITCHEN KNIFE       0.03      0.00      0.01       328
+              KNIFE WITH BLADE 6INCHES OR LESS       0.05      0.01      0.01      1184
+      KNIFE WITH BLADE OVER 6 INCHES IN LENGTH       0.07      0.01      0.02       288
+                                  LIQUOR/DRUGS       0.00      0.00      0.00        11
+           MAC-11 SEMIAUTOMATIC ASSAULT WEAPON       0.00      0.00      0.00         1
+                             MACE/PEPPER SPRAY       0.06      0.01      0.02       597
+                                       MACHETE       0.03      0.00      0.01       217
+                          MARTIAL ARTS WEAPONS       0.00      0.00      0.00         2
+                      OTHER CUTTING INSTRUMENT       0.00      0.00      0.00       151
+                                 OTHER FIREARM       0.19      0.05      0.08       163
+                                   OTHER KNIFE       0.07      0.01      0.02      1045
+                             PHYSICAL PRESENCE       0.04      0.01      0.01       145
+                               PIPE/METAL PIPE       0.03      0.00      0.01       460
+                                         RAZOR       0.00      0.00      0.00        10
+                                   RAZOR BLADE       0.00      0.00      0.00        12
+                                 RELIC FIREARM       0.50      0.25      0.33         4
+                                      REVOLVER       0.04      0.01      0.02       184
+                                         RIFLE       0.16      0.03      0.06        90
+                            ROCK/THROWN OBJECT       0.11      0.02      0.03       442
+                                 ROPE/LIGATURE       0.00      0.00      0.00        13
+                       SAWED OFF RIFLE/SHOTGUN       0.00      0.00      0.00         4
+                               SCALDING LIQUID       0.00      0.00      0.00        28
+                                      SCISSORS       0.00      0.00      0.00       117
+                                   SCREWDRIVER       0.00      0.00      0.00       141
+                         SEMI-AUTOMATIC PISTOL       0.14      0.05      0.07      1223
+                          SEMI-AUTOMATIC RIFLE       0.00      0.00      0.00         9
+                                       SHOTGUN       0.33      0.05      0.08        43
+                                 SIMULATED GUN       0.03      0.01      0.01       200
+                       STARTER PISTOL/REVOLVER       0.00      0.00      0.00         7
+                                         STICK       0.05      0.01      0.01       373
+                                STRAIGHT RAZOR       0.00      0.00      0.00         2
+STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)       0.42      0.34      0.37     30060
+                                      STUN GUN       0.00      0.00      0.00        75
+                                  SWITCH BLADE       0.00      0.00      0.00        41
+                                         SWORD       0.00      0.00      0.00        16
+                                       SYRINGE       0.00      0.00      0.00         5
+                                     TIRE IRON       0.00      0.00      0.00        32
+                                       TOY GUN       0.00      0.00      0.00        26
+          UNK TYPE SEMIAUTOMATIC ASSAULT RIFLE       0.00      0.00      0.00         1
+                               UNKNOWN FIREARM       0.16      0.07      0.10      1140
+               UNKNOWN TYPE CUTTING INSTRUMENT       0.00      0.00      0.00       157
+                   UNKNOWN WEAPON/OTHER WEAPON       0.12      0.03      0.04      5965
+               UZI SEMIAUTOMATIC ASSAULT RIFLE       0.00      0.00      0.00         2
+                                       Unknown       0.73      0.91      0.81    104690
+                                       VEHICLE       0.25      0.05      0.09       577
+                                 VERBAL THREAT       0.09      0.01      0.02      4090
+
+                                      accuracy                           0.66    160592
+                                     macro avg       0.08      0.03      0.04    160592
+                                  weighted avg       0.57      0.66      0.60    160592
+
+Vict Age: 0.2654
+Vict Sex: 0.0583
+TIME OCC: 0.3882
+AREA: 0.1238
+Premis Desc: 0.1643
+
+
+
+
